@@ -1,3 +1,8 @@
 {
-  "test/test_index.py": true
+  "test/test_index.py::test_boolean_compare": true,
+  "test/test_index.py::test_identity_compare": true,
+  "test/test_index.py::test_list_compare": true,
+  "test/test_index.py::test_logical_compare": true,
+  "test/test_index.py::test_number_compare": true,
+  "test/test_index.py::test_string_compare": true
 }

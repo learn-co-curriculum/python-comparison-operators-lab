@@ -1,7 +1,7 @@
 import pytest
 import sys
 sys.path.insert(0, '..')
-from ipynb.fs.full.index import boolean_compare, boolean_compare2, number_compare, number_compare2, number_compare3, string_compare, string_compare2, string_compare3, list_compare, list_compare2, list_compare3, list_compare4, list_compare5, logical_compare, logical_compare2, logical_compare3, logical_compare4, logical_compare5, logical_compare6, logical_compare7, identity_compare, identity_compare2, identity_compare3, identity_compare4, identity_compare5, identity_compare6
+from ipynb.fs.full.index import *
 
 def test_boolean_compare():
     assert boolean_compare == False
