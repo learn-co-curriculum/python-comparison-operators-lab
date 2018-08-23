@@ -81,12 +81,12 @@ Use identity opertors for this section
 ```python
 # a = []
 # b = a
-# identity_compare = {} [COMPARISON] {}) # False
-# identity_compare2 = a [COMPARISON] b) # True
-# identity_compare3 = b [COMPARISON] []) # True
-# identity_compare4 = 9 [COMPARISON] 10) # True
-# identity_compare5 = "Same" [COMPARISON] "Same") # False
-# identity_compare6 = [1,3,4] [COMPARISON] [1,2,3]) # False
+# identity_compare = {} [COMPARISON] {} # False
+# identity_compare2 = a [COMPARISON] b # True
+# identity_compare3 = b [COMPARISON] [] # True
+# identity_compare4 = 9 [COMPARISON] 10 # True
+# identity_compare5 = "Same" [COMPARISON] "Same" # False
+# identity_compare6 = [1,3,4] [COMPARISON] [1,2,3] # False
 ```
 
 # Summary
