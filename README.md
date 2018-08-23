@@ -25,33 +25,33 @@ Once uncommented, you can run the tests to see if your comparisons are working t
 
 
 ```python
-# boolean_compare = True [COMPARISON] True # False
-# boolean_compare2 = False [COMPARISON] True # False
+boolean_compare = True != True # False
+boolean_compare2 = False == True # False
 ```
 
 
 ```python
-# number_compare = 10 [COMPARISON] 10 # True
-# number_compare2 = -20 [COMPARISON] 30 # True
-# number_compare3 = 4 [COMPARISON] 5 # False
+number_compare = 10 == 10 # True
+number_compare2 = -20 <= 30 # True
+number_compare3 = 4 > 5 # False
 ```
 
 
 ```python
-# string_compare = "stacy" [COMPARISON] "STACY" # True
-# string_compare2 = "hey i love python!" [COMPARISON] "hi love python" # False
-# string_compare3 = "this string is bigger than the other" [COMPARISON] "that is true" # True
+string_compare = "stacy" != "STACY" # True
+string_compare2 = "hey i love python!" > "hi love python" # False
+string_compare3 = "this string is bigger than the other" > "that is true" # True
 ```
 
 In the next section, do not use either `==` or `!=` operators
 
 
 ```python
-# list_compare = [0,0,0,0] [COMPARISON] [0,0,0] # True
-# list_compare2 = [1,0,0] [COMPARISON] [0,0,0] # True
-# list_compare3 = [0,0,0] [COMPARISON] [0,0,3] # False
-# list_compare4 = [0,0,3,0] [COMPARISON] [0,0,3] # True
-# list_compare5 = [0,0,4,0] [COMPARISON] [0,0,3] # False
+list_compare = [0,0,0,0] > [0,0,0] # True
+list_compare2 = [1,0,0] > [0,0,0] # True
+list_compare3 = [0,0,0] >= [0,0,3] # False
+list_compare4 = [0,0,3,0] >= [0,0,3] # True
+list_compare5 = [0,0,4,0] < [0,0,3] # False
 ```
 
 ### Practicing Identity and Logical Operators
@@ -66,27 +66,27 @@ Use logical opertors for this section
 
 
 ```python
-# logical_compare = 2 [COMPARISON] [] # []
-# logical_compare2 = [COMPARISON] [] # True
-# logical_compare3 = 0 [COMPARISON] [] # 0
-# logical_compare4 = True [COMPARISON] 2 # 2
-# logical_compare5 = 2 [COMPARISON] 3 # 2
-# logical_compare6 = [COMPARISON] True # False
-# logical_compare7 = False [COMPARISON] 2 # False
+logical_compare = 2 and [] # []
+logical_compare2 = not [] # True
+logical_compare3 = 0 and [] # 0
+logical_compare4 = True and 2 # 2
+logical_compare5 = 2 or 3 # 2
+logical_compare6 = not True # False
+logical_compare7 = False and 2 # False
 ```
 
 Use identity opertors for this section
 
 
 ```python
-# a = []
-# b = a
-# identity_compare = {} [COMPARISON] {}) # False
-# identity_compare2 = a [COMPARISON] b) # True
-# identity_compare3 = b [COMPARISON] []) # True
-# identity_compare4 = 9 [COMPARISON] 10) # True
-# identity_compare5 = "Same" [COMPARISON] "Same") # False
-# identity_compare6 = [1,3,4] [COMPARISON] [1,2,3]) # False
+a = []
+b = a
+identity_compare = {} is {} # False
+identity_compare2 = a is b # True
+identity_compare3 = b is not [] # True
+identity_compare4 = 9 is not 10 # True
+identity_compare5 = "Same" is not "Same" # False
+identity_compare6 = [1,3,4] is [1,2,3] # False
 ```
 
 # Summary
