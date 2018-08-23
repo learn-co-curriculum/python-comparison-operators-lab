@@ -1,8 +1,1 @@
-[
-  "test/test_index.py::test_boolean_compare",
-  "test/test_index.py::test_number_compare",
-  "test/test_index.py::test_string_compare",
-  "test/test_index.py::test_list_compare",
-  "test/test_index.py::test_logical_compare",
-  "test/test_index.py::test_identity_compare"
-]
+[]
