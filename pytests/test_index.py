@@ -1,6 +1,4 @@
 import pytest
-import sys
-sys.path.insert(0, '..')
 from ipynb.fs.full.index import *
 
 def test_boolean_compare():
